@@ -247,6 +247,7 @@ def download(
         user_agent_token=user_agent_token,
         disallowed_header_directives=disallowed_header_directives,
         blurring_bbox_col=bbox_col,
+        ignore_ssl_certificate=ignore_ssl_certificate,
     )
 
     print("Starting the downloading of this file")
